@@ -27,6 +27,7 @@ To get started, clone the repository and install the necessary dependencies for 
 ```bash
 git clone https://github.com/codebythanos/Script-Identification-DC_AY-25-26.git
 cd Script-Identification-DC_AY-25-26
+```
 
 ## Project Structure
 
