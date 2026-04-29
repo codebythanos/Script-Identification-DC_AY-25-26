@@ -50,6 +50,34 @@ ParseqViT/
 
 
 ---
+### To run test.py
+## Requirements
+
+```bash
+pip install torch torchvision timm scikit-learn seaborn matplotlib pillow opencv-python
+```
+
+## Download Weights
+
+```bash
+wget https://github.com/codebythanos/Script-Identification-DC_AY-25-26/releases/download/v1.0/vit_patch16_weights.pth
+```
+
+## Run
+
+1. Open `test.py` and set `TEST_DIR` to your test dataset path
+2. Run:
+
+```bash
+python test.py
+```
+
+## Output
+
+- Test accuracy & loss printed to terminal
+- Per-class classification report (precision, recall, F1)
+- `confusion_matrix_patch16.png` saved in current directory
+
 ## Installation
 
 Navigate to this directory:
