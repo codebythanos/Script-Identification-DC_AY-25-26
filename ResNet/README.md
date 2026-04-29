@@ -22,6 +22,7 @@ ResNet/
 ├── Model1.py
 ├── Model2.py
 ├── Model3.py
+├── p1_50k_best.keras
 ├── requirement_model1.txt
 ├── requirement_model2.txt
 ├── requirement_model3.txt
