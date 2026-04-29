@@ -85,5 +85,5 @@ Despite strong validation trends, slight generalization gaps may still exist due
 - Persistent class-wise imbalance (Marathi weakest)  
 
 ---
-<img width="122" height="80" alt="WhatsApp Image 2026-04-29 at 9 04 25 PM" src="https://github.com/user-attachments/assets/87d34ea0-3e60-4b3d-8f8d-2c877605ca37" />
+
 
