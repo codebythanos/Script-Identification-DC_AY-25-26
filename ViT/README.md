@@ -43,9 +43,6 @@ ViT/
   Advanced implementation with optimization techniques, tuning, and improved performance.
 
 ---
-## Model Weights
-best_vit_model.keras is the model weights for our vit_Model3.py 
-
 ## Installation
 
 Navigate to this directory:
