@@ -84,6 +84,20 @@ Despite strong validation trends, slight generalization gaps may still exist due
 - Suboptimal token resolution (especially for large patches)  
 - Persistent class-wise imbalance (Marathi weakest)  
 
+## PARSeq-Style ViT (128×32) – Failure Analysis
+
+The PARSeq-inspired ViT model using a rectangular 128×32 input shows lower overall performance, with patch8 achieving **79.64% (best)**, patch16 **72.07%**, and patch32 **59.57%**. The model continues to struggle with visually similar scripts such as Hindi–Marathi and Bengali–Assamese.
+
+Smaller patches (patch8) perform better due to higher token resolution, while larger patches (patch32) suffer from significant information loss. The reduced input height (32 pixels) limits vertical detail, affecting fine-grained character recognition. Class-wise imbalance persists, with Marathi remaining the weakest class.
+
+Overall, the performance drop is mainly due to reduced token resolution, loss of spatial detail, and difficulty in distinguishing similar scripts.
+
+### Main Failure Reasons
+
+- Confusion between visually similar scripts (Hindi–Marathi, Bengali–Assamese)  
+- Reduced token resolution (especially patch32)  
+- Loss of vertical detail (height = 32)  
+- Persistent class imbalance (Marathi weakest)  
 ---
 
 
