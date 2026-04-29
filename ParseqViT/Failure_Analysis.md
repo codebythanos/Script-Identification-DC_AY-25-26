@@ -82,7 +82,15 @@ Despite strong validation trends, slight generalization gaps may still exist due
 
 - Confusion between visually similar scripts  
 - Suboptimal token resolution (especially for large patches)  
-- Persistent class-wise imbalance (Marathi weakest)  
+- Persistent class-wise imbalance (Marathi weakest)
+
+<img width="811" height="533" alt="image" src="https://github.com/user-attachments/assets/ef274473-dac8-4c8f-8f95-1cc75cfff0d2" />
+english misclassified as hindi
+
+<img width="130" height="110" alt="image" src="https://github.com/user-attachments/assets/8850b83f-362e-4e6c-92e5-424b6555e6d9" />
+bengali misclassified as odia
+
+
 
 ## PARSeq-Style ViT (128×32) – Failure Analysis
 
