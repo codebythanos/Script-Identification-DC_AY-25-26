@@ -44,9 +44,6 @@ ParseqViT/
   Advanced implementation including patch-size experiments, attention visualization, and performance comparison.
 
 ---
-## Model Weights
-vit_patch16_weights.pth is the model weights for the patch 16 of Model3_parseq.py 
-
 ## Installation
 
 Navigate to this directory:
