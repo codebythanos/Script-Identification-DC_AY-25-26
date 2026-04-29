@@ -59,11 +59,11 @@ Example for Model 3:
 pip install -r requirement_Model3_parseq.txt
 ```
 Similarly:
-
+```bash
 Model1 → requirement_Model1_parseq.txt
 Model2 → requirement_Model2_parseq.txt
+```
 Usage
-
 Run the desired model:
 
 Example:
