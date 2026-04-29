@@ -132,6 +132,7 @@ This project is based on established deep learning architectures:
 - ResNet
 - Transformer-based models
 - TensorFlow ecosystem
+- Pytorch ecosystem
 
 ---
 
