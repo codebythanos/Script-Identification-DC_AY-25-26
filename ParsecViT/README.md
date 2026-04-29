@@ -17,7 +17,7 @@ Each version includes:
 
 ## Directory Structure
 
-
+```bash
 ParseqViT/
 │
 ├── Model1_parseq.py
@@ -27,7 +27,7 @@ ParseqViT/
 ├── requirement_Model2_parseq.txt
 ├── requirement_Model3_parseq.txt
 ├── README.md
-
+```
 
 ---
 
