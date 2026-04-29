@@ -20,12 +20,12 @@ Each version includes:
 
 ParseqViT/
 │
-├── Model1_parsec.py
-├── Model2_parsec.py
-├── Model3_parsec.py
-├── requirement_Model1_parsec.txt
-├── requirement_Model2_parsec.txt
-├── requirement_Model3_parsec.txt
+├── Model1_parseq.py
+├── Model2_parseq.py
+├── Model3_parseq.py
+├── requirement_Model1_parseq.txt
+├── requirement_Model2_parseq.txt
+├── requirement_Model3_parseq.txt
 ├── README.md
 
 
@@ -33,13 +33,13 @@ ParseqViT/
 
 ## Model Variants
 
-- **Model1_parsec.py**  
+- **Model1_parseq.py**  
   Baseline PARSeq-style Vision Transformer model.
 
-- **Model2_parsec.py**  
+- **Model2_parseq.py**  
   Modified version with improvements such as better training strategy or architecture changes.
 
-- **Model3_parsec.py**  
+- **Model3_parseq.py**  
   Advanced implementation including patch-size experiments, attention visualization, and performance comparison.
 
 ---
@@ -56,12 +56,12 @@ Install dependencies for the required model:
 
 Example for Model 3:
 ```bash
-pip install -r requirement_Model3_parsec.txt
+pip install -r requirement_Model3_parseq.txt
 ```
 Similarly:
 
-Model1 → requirement_Model1_parsec.txt
-Model2 → requirement_Model2_parsec.txt
+Model1 → requirement_Model1_parseq.txt
+Model2 → requirement_Model2_parseq.txt
 Usage
 
 Run the desired model:
@@ -69,12 +69,12 @@ Run the desired model:
 Example:
 
 ```bash
-python Model3_parsec.py
+python Model3_parseq.py
 ```
 Similarly:
 
-python Model1_parsec.py
-python Model2_parsec.py
+python Model1_parseq.py
+python Model2_parseq.py
 Dataset
 
 Update dataset paths inside the script before running.
