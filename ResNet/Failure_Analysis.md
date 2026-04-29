@@ -72,3 +72,11 @@ The model may be learning augmented patterns rather than true script-specific fe
 - Persistent confusion between visually similar scripts  
 - Overfitting due to large augmented dataset  
 - Imbalance in class-wise performance (Marathi weakest)  
+
+
+<img width="65" height="56" alt="image" src="https://github.com/user-attachments/assets/289510c4-3ccc-4209-a816-145c07c6f813" />
+Gujarati misclassified as Hindi
+
+<img width="104" height="72" alt="image" src="https://github.com/user-attachments/assets/d96e31d8-dbb8-42ee-b616-459e782b9aac" />
+Kannada misclassfied as English
+
