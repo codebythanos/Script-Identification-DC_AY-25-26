@@ -42,8 +42,8 @@ ResNet/
   Advanced implementation including enhancements such as data augmentation or optimized backbone usage.
 
 ---
-## Weights
-p1_50k_best.keras is the weights for the file Model3.py
+## Model Weights
+p1_50k_best.keras is the model weights for the file Model3.py
 
 ## Installation
 
