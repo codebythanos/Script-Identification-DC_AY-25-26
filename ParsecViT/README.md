@@ -50,13 +50,14 @@ Navigate to this directory:
 
 ```bash
 cd ParseqViT
+```
 
 Install dependencies for the required model:
 
 Example for Model 3:
-
+```bash
 pip install -r requirement_Model3_parsec.txt
-
+```
 Similarly:
 
 Model1 → requirement_Model1_parsec.txt
@@ -67,8 +68,9 @@ Run the desired model:
 
 Example:
 
+```bash
 python Model3_parsec.py
-
+```
 Similarly:
 
 python Model1_parsec.py
