@@ -27,7 +27,7 @@ Performance is also uneven across classes, with high accuracy for **Odia** and *
 
 
 
-## Vision Transformer (ViT) – Partial Fine-Tuning (vit.Model2.py)
+## Vision Transformer (ViT) – Partial Fine-Tuning (vit_Model2.py)
 
 The model based on **Vision Transformer (ViT)** achieved a test accuracy of **58.51%**, showing significantly lower performance compared to the fully fine-tuned ViT model.
 
@@ -54,7 +54,7 @@ Additionally, heavy **augmentation** and a relatively small dataset (~1800 sampl
 
 
 
-## Vision Transformer (ViT) – Best Model (vit.Model.py)
+## Vision Transformer (ViT) – Best Model (vit_Model3.py)
 
 The model based on **Vision Transformer (ViT)** achieved a high test accuracy of **82.97%**, making it the best-performing model among all.
 
